@@ -9,7 +9,7 @@ export const CounterButton = () => {
   }
 
   return (
-    <div className="flex gap-x-3 mt-4">
+    <div className="flex gap-x-3 mt-4 justify-center">
       <button
         onClick={(e) => onCount(e.currentTarget.name)}
         className="bg-blue-400 px-3 py-0.5 rounded-sm text-white"
